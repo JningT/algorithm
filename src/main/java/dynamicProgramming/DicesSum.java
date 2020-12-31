@@ -17,9 +17,10 @@ import java.util.Map;
  */
 
 /**
-*   First find the result of a dice
+ * Using dp method:
+*   First, find the result of a dice
  * Add another dice and continue to solve,
- * Add another dice and use the result of the previous dice to solve,
+ * Add another dice and use the result of the previous dice to solve.
  **/
 public class DicesSum {
     public static List<Map.Entry<Integer, Double>> dicesSum(int n) {
